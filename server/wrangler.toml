@@ -1,0 +1,11 @@
+name = "blockfall-server"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[durable_objects.bindings]]
+name = "WORLD_ROOM"
+class_name = "WorldRoom"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["WorldRoom"]
